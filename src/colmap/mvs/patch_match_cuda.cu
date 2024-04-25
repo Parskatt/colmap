@@ -42,7 +42,7 @@
 
 // The number of threads per Cuda thread. Warning: Do not change this value,
 // since the templated window sizes rely on this value.
-#define THREADS_PER_BLOCK 96
+#define THREADS_PER_BLOCK 32
 
 // We must not include "util/math.h" to avoid any Eigen includes here,
 // since Visual Studio cannot compile some of the Eigen/Boost expressions.
